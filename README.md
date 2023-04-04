@@ -2,6 +2,16 @@
 
 ## Created by [Sygil.Dev](https://github.com/sygil-dev)
 
+### Fork
+
+This fork only adds a GitHub release workflow to automatically build and upload the latest version to the GitHub Container Registry.
+
+```console
+$ docker pull ghcr.io/kldzj/sygil-webui:latest
+```
+
+> Please note that the `runpod` image is not built by this workflow.
+
 ## Join us at Sygil.Dev's Discord Server [![Generic badge](https://flat.badgen.net/discord/members/ttM8Tm6wge?icon=discord)](https://discord.gg/ttM8Tm6wge)
 
 ## Installation instructions for:
