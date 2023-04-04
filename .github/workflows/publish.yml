@@ -16,13 +16,13 @@ jobs:
       packages: write
     strategy:
       fail-fast: true
-      max-parallel: 0
+      max-parallel: 1
       matrix:
         image:
           - name: base
-            dockerfile: Dockerfile_base
+            dockerfile: ./Dockerfile_base
           - name: latest
-            dockerfile: Dockerfile
+            dockerfile: ./Dockerfile
 
     steps:
       - name: Checkout repository
