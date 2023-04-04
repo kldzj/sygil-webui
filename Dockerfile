@@ -1,4 +1,4 @@
-ARG IMAGE=hlky/sd-webui:base
+ARG IMAGE=ghcr.io/kldzj/sygil-webui:base
 
 FROM ${IMAGE}
 
